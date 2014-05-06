@@ -1,4 +1,4 @@
-SELECT p.pid FROM Person p 
+﻿SELECT p.pid FROM Person p 
     WHERE EXISTS( 
         SELECT * FROM Acts a 
         WHERE a.pid = p.pid 
