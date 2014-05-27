@@ -1,0 +1,3 @@
+UPDATE boek
+SET isbn=98765
+WHERE isbn=12345
