@@ -8,7 +8,7 @@ UPDATE Boek SET titel = titel || ' deel 1' WHERE isbn = '0136067018';
 UPDATE Boek SET titel = titel || ' deel 1' WHERE isbn = '0321228383';
 -- read2(x)
 SELECT titel FROM Boek WHERE isbn = ' 0136067018';
--- ROLLBACK1
 -- write2(x)
 UPDATE Boek SET titel = titel || ' deel 2' WHERE isbn = ' 0136067018';
 -- COMMIT2
+-- ROLLBACK1
