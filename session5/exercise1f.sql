@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION verwijderalles() 
+CREATE FUNCTION verwijderalles() 
 RETURNS TRIGGER
 AS $$ BEGIN
 	DELETE FROM exemplaar WHERE isbn = OLD.isbn;
